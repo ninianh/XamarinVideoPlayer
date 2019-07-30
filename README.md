@@ -34,7 +34,7 @@ XamarinVideoPlayer.VideoView vPlayer = new XamarinVideoPlayer.VideoView { Height
 
 xmlns:video ="clr-namespace:XamarinVideoPlayer;assembly=XamarinVideoPlayer"
 
-<video:VideoView 	HeightRequest="90" WidthRequest="160"	VerticalOptions="End" HorizontalOptions="End" x:Name="VideoViewer"></video:VideoView>
+`<video:VideoView Source="Binding YourSource" HeightRequest="90" WidthRequest="160"	VerticalOptions="End" HorizontalOptions="End" x:Name="VideoViewer"></video:VideoView>`
 
 # Note
 
