@@ -8,15 +8,15 @@ Nuget: https://www.nuget.org/packages/XamarinVideoPlayer/1.0.2
 
 You have to install this for PCL and platform projects and call init functions
 
-##iOS
+## iOS
 
 XamarinVideoPlayer.iOS.VideoRenderer.Init();
 
-##Android
+## Android
 
 XamarinVideoPlayer.Droid.VideoRenderer.Init();
 
-##UWP release
+## UWP release
 
 var assembliesToInclude = new List<Assembly>()
 {
@@ -30,12 +30,13 @@ url = "http ... mp4/av..." or video local filename
 
 XamarinVideoPlayer.VideoView vPlayer = new XamarinVideoPlayer.VideoView { HeightRequest = 250, Source = url };
 
-##XAML
+## XAML
 
 xmlns:video ="clr-namespace:XamarinVideoPlayer;assembly=XamarinVideoPlayer"
+
 <video:VideoView 	HeightRequest="90" WidthRequest="160"	VerticalOptions="End" HorizontalOptions="End" x:Name="VideoViewer"></video:VideoView>
 
-*Note
+# Note
 
 -Please feel free to contact me
 
